@@ -5,7 +5,7 @@ import entidades.*;
 import java.util.Scanner;
 
 public class AplicativoDeEmpresa {
-  private static Scanner sc = new Scanner(System.in);
+  private static final Scanner sc = new Scanner(System.in);
   
   private static void showMenu() {
     System.out.println("1) Registrar equipo"
